@@ -9,8 +9,9 @@ client_secret = ''
 
 public_key = ''
 
-# 코드에프 인스턴스 생성
+
 async def main():
+    # 코드에프 인스턴스 생성
     codef = Codef()
     codef.public_key = public_key
 

@@ -26,8 +26,8 @@ client_secret = ''
 
 public_key = ''
 
-# 코드에프 인스턴스 생성
 async def main():
+    # 비동기 컨텍스트 매니저 사용 가능
     async with Codef() as codef:
         codef.public_key = public_key
 
